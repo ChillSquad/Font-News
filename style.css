@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 30%;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.controls {
+  padding: 16px 0 6px;
+  overflow-x: hidden;
+}
+
+.controls label {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.filter {
+  padding: 2px;
+  outline: none;
+}
+
+.color-filters {
+  display: flex;
+  margin-right: -20px;
+}
+
+.color-filters label {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.color-filters .filter {
+  margin-top: 4px;
+}
+
+.controls .filter {
+  margin-left: 0;
+}
+
+.longread {
+  min-height: calc(100vh - 237px);
+  padding-bottom: 1em;
+  font-size: 14px;
+}
+
+.longread h1 {
+  margin: 5px 0 0.6em;
+  line-height: 1.2;
+}
+
+.longread p {
+  margin: 0 0 0.8em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.size-setting {
+  outline: none;
+  width: 100%;
+}
